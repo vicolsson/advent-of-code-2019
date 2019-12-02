@@ -13,7 +13,7 @@ fun main() {
 
   println("--- Puzzle result ---");
   println(answer)
-  println(if (answer === CORRECT_ANSWER) "Test success" else "Test fail")
+  println(if (answer == CORRECT_ANSWER) "Test success" else "Test fail")
 
   val runTime = System.currentTimeMillis() - startTime
   println("Run time: ${runTime} ms")
